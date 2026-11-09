@@ -1,0 +1,9 @@
+Bienvenue sur KREO !
+
+Confirme ton adresse e-mail en ouvrant ce lien (valable {{ hours }} heures) :
+{{ link }}
+
+Si tu n'es pas à l'origine de cette inscription, ignore simplement ce message.
+
+— L'équipe KREO
+Une idée, des talents, un projet.

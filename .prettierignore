@@ -1,0 +1,10 @@
+node_modules
+.next
+dist
+.turbo
+pnpm-lock.yaml
+apps/api
+docs/schema/*.sql
+packages/api-client/src/schema.d.ts
+packages/api-client/openapi.json
+apps/api/.venv

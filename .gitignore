@@ -1,0 +1,41 @@
+# Node
+node_modules/
+.pnpm-store/
+.turbo/
+.next/
+out/
+dist/
+coverage/
+*.tsbuildinfo
+.eslintcache
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+*.egg-info/
+
+# Env & secrets (jamais de clé dans le dépôt)
+.env
+.env.*
+!.env.example
+
+# Médias locaux
+apps/api/media/
+apps/api/staticfiles/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Playwright
+test-results/
+playwright-report/

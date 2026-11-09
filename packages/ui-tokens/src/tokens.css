@@ -1,0 +1,38 @@
+/* Variables CSS générées depuis tokens.json — source unique du design system KREO. */
+:root {
+  --kreo-color-taupe: #8b7262;
+  --kreo-color-taupe-dark: #5f4c40;
+  --kreo-color-brown: #3a2e27;
+  --kreo-color-ivory: #f2ebe1;
+  --kreo-color-paper: #faf7f2;
+  --kreo-color-ink: #16110e;
+  --kreo-color-gold: #c6a15b;
+  --kreo-color-bordeaux: #7b2d3b;
+  --kreo-color-white: #ffffff;
+  --kreo-color-success: #3f6b4e;
+  --kreo-color-warning: #8a5a14;
+  --kreo-color-danger: #7b2d3b;
+  --kreo-color-focus: #c6a15b;
+
+  --kreo-font-display: "Playfair Display", Georgia, serif;
+  --kreo-font-body: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --kreo-letter-spacing-display: 0.02em;
+  --kreo-letter-spacing-caps: 0.08em;
+
+  --kreo-radius-sm: 0.25rem;
+  --kreo-radius-md: 0.5rem;
+  --kreo-radius-lg: 0.75rem;
+  --kreo-radius-xl: 1rem;
+  --kreo-radius-2xl: 1.5rem;
+  --kreo-radius-full: 9999px;
+
+  --kreo-shadow-sm: 0 1px 2px rgba(22, 17, 14, 0.06);
+  --kreo-shadow-md: 0 4px 12px rgba(22, 17, 14, 0.08);
+  --kreo-shadow-lg: 0 12px 32px rgba(22, 17, 14, 0.12);
+
+  --kreo-touch-min: 44px;
+  --kreo-motion-fast: 120ms;
+  --kreo-motion-base: 200ms;
+  --kreo-motion-slow: 320ms;
+  --kreo-easing: cubic-bezier(0.2, 0.8, 0.2, 1);
+}

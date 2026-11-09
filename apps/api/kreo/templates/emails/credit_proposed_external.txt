@@ -1,0 +1,10 @@
+Bonjour,
+
+Le porteur du projet « {{ project_title }} » te propose un crédit de collaboration sur KREO pour le rôle : {{ role_name }}.
+
+Crée ton compte avec cette adresse e-mail pour le confirmer ; il apparaîtra alors sur ton profil :
+{{ link }}
+
+Un crédit KREO atteste d'une collaboration confirmée par les deux parties. Il ne prouve ni contrat ni rémunération.
+
+— L'équipe KREO

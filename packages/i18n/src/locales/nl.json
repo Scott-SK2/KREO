@@ -1,0 +1,295 @@
+{
+  "brand": {
+    "name": "KREO",
+    "slogan": "Eén idee, talenten, een project.",
+    "support": "Vind je team. Maak je project. Houd je credit."
+  },
+  "nav": {
+    "discover": "Ontdekken",
+    "projects": "Projecten",
+    "opportunities": "Oproepen",
+    "creators": "Makers",
+    "dashboard": "Tableau de bord",
+    "myApplications": "Mes candidatures",
+    "inbox": "Boîte des candidats",
+    "messages": "Berichten",
+    "notifications": "Meldingen",
+    "login": "Inloggen",
+    "register": "Account aanmaken",
+    "logout": "Uitloggen",
+    "account": "Mon compte",
+    "moderation": "Modération",
+    "skipToContent": "Naar de inhoud"
+  },
+  "home": {
+    "title": "Une idée, des talents, un projet.",
+    "lead": "KREO est la plateforme gratuite où les créateurs de toutes disciplines trouvent des projets, recrutent une équipe et gardent des crédits de collaboration confirmés. Bruxelles d'abord, sans barrière de diplôme ni d'expérience.",
+    "ctaDiscover": "Voir les annonces",
+    "ctaJoin": "Rejoindre la bêta",
+    "pillars": {
+      "find": {
+        "title": "Trouve ton équipe",
+        "body": "Publie une annonce à plusieurs rôles, chaque rôle avec sa rémunération et ses places."
+      },
+      "make": {
+        "title": "Fais ton projet",
+        "body": "Candidate en un clic, suis chaque étape, échange en toute sécurité."
+      },
+      "keep": {
+        "title": "Garde ton crédit",
+        "body": "Un crédit confirmé par les deux parties, visible sur ton profil et sur le projet."
+      }
+    },
+    "launchDisciplines": "Au lancement : audiovisuel, spectacle vivant, musique.",
+    "free": "Inscription, publication, candidature et portfolio gratuits. Jamais de classement payant.",
+    "latestOpportunities": "Dernières annonces",
+    "betaNotice": "Bêta fermée : l'inscription se fait sur invitation."
+  },
+  "auth": {
+    "register": {
+      "title": "Créer ton compte",
+      "intro": "La bêta est sur invitation. Il te faut un code reçu d'un membre ou de l'équipe KREO.",
+      "invitationCode": "Code d'invitation",
+      "email": "Adresse e-mail",
+      "password": "Mot de passe",
+      "passwordHint": "10 caractères minimum.",
+      "birthDate": "Date de naissance",
+      "birthDateHint": "KREO est réservé aux personnes majeures.",
+      "terms": "J'accepte les conditions d'utilisation et la politique de confidentialité.",
+      "submit": "Créer mon compte",
+      "success": "C'est presque fini ! Ouvre l'e-mail que nous venons d'envoyer pour confirmer ton adresse.",
+      "resend": "Renvoyer l'e-mail",
+      "haveAccount": "Déjà membre ?"
+    },
+    "login": {
+      "title": "Content de te revoir",
+      "email": "Adresse e-mail",
+      "password": "Mot de passe",
+      "submit": "Se connecter",
+      "forgot": "Mot de passe oublié ?",
+      "noAccount": "Pas encore de compte ?",
+      "emailNotVerified": "Confirme d'abord ton adresse e-mail. Besoin d'un nouveau lien ?"
+    },
+    "verifyEmail": {
+      "title": "Vérification de ton e-mail",
+      "verifying": "Vérification en cours…",
+      "success": "Ton adresse est confirmée. Bienvenue !",
+      "invalid": "Ce lien est invalide ou a expiré.",
+      "resend": "Recevoir un nouveau lien"
+    },
+    "reset": {
+      "title": "Réinitialiser ton mot de passe",
+      "intro": "Indique ton adresse e-mail : si un compte existe, tu recevras un lien valable 2 heures.",
+      "sent": "Si un compte existe pour cette adresse, un e-mail vient de partir.",
+      "newPassword": "Nouveau mot de passe",
+      "submit": "Enregistrer",
+      "done": "Mot de passe mis à jour. Tu peux te connecter."
+    }
+  },
+  "onboarding": {
+    "title": "Fais connaissance avec KREO",
+    "step": "Étape {current} sur {total}",
+    "displayName": "Ton pseudonyme",
+    "displayNameHint": "Le nom affiché sur ton profil et tes candidatures.",
+    "disciplines": "Tes disciplines",
+    "disciplinesHint": "Choisis-en au moins deux. Tu pourras en ajouter plus tard.",
+    "city": "Ta commune",
+    "cityHint": "Commune approximative, jamais ton adresse exacte.",
+    "bio": "Quelques mots sur toi",
+    "bioOptional": "Facultatif, tu pourras compléter plus tard.",
+    "finish": "Découvrir les annonces",
+    "later": "Plus tard",
+    "noPhotoNeeded": "Pas de photo obligatoire : ton profil peut vivre sans."
+  },
+  "discover": {
+    "title": "Découvrir",
+    "tabs": {
+      "opportunities": "Annonces",
+      "projects": "Projets",
+      "creators": "Créateurs"
+    },
+    "search": "Rechercher",
+    "searchPlaceholder": "Un rôle, une discipline, un projet…",
+    "filters": "Filtres",
+    "discipline": "Discipline",
+    "city": "Commune",
+    "compensation": "Rémunération",
+    "beginnerFriendly": "Ouvert aux débutants",
+    "deadline": "Échéance",
+    "sort": "Trier",
+    "sortRecent": "Les plus récentes",
+    "sortRelevance": "Pertinence",
+    "reset": "Réinitialiser",
+    "results": "{count, plural, =0 {Aucune annonce} one {# annonce} other {# annonces}}",
+    "emptyTitle": "Rien pour l'instant avec ces filtres",
+    "emptyBody": "Élargis la discipline ou la commune, ou reviens bientôt : de nouvelles annonces arrivent chaque semaine.",
+    "loadMore": "Voir plus",
+    "noRanking": "Aucun classement par prestige ni placement payant."
+  },
+  "compensation": {
+    "paid": "Betaald",
+    "volunteer": "Vrijwillig",
+    "expenses": "Onkostenvergoeding",
+    "negotiable": "Te bespreken"
+  },
+  "opportunity": {
+    "roles": "Rôles",
+    "slots": "{count, plural, one {# place} other {# places}}",
+    "slotsLeft": "{count, plural, =0 {Complet} one {# place restante} other {# places restantes}}",
+    "deadline": "Jusqu'au {date}",
+    "noDeadline": "Sans échéance",
+    "beginnerFriendly": "Ouvert aux débutants",
+    "apply": "Candidater",
+    "applied": "Candidature envoyée",
+    "closed": "Fermé",
+    "project": "Projet",
+    "by": "Publié par",
+    "verifiedOwner": "Porteur vérifié",
+    "responseTime": "Répond en général sous {hours} h",
+    "responseTimeNote": "Délai médian mesuré, pas une note.",
+    "safetyTitle": "Conseils de sécurité",
+    "intimateScene": "Cette annonce comporte une scène de nu ou intime. Elle a été vérifiée par la modération.",
+    "report": "Signaler cette annonce",
+    "commercial": "Projet commercial",
+    "volunteerRules": "Le bénévolat est réservé aux projets non commerciaux. En savoir plus sur les règles belges du travail artistique."
+  },
+  "application": {
+    "title": "Candidater à « {role} »",
+    "message": "Un mot pour l'équipe (facultatif)",
+    "availability": "Je confirme ma disponibilité aux dates du projet",
+    "portfolio": "Éléments de mon portfolio à joindre",
+    "attachment": "Fichier privé (PDF ou image, 10 Mo max)",
+    "submit": "Envoyer ma candidature",
+    "sent": "Candidature envoyée. Tu seras prévenu·e à chaque étape.",
+    "withdraw": "Retirer ma candidature",
+    "acceptOffer": "Accepter l'offre",
+    "declineOffer": "Décliner",
+    "history": "Historique",
+    "status": {
+      "submitted": "Envoyée",
+      "viewed": "Vue",
+      "shortlisted": "Présélectionnée",
+      "audition": "Audition",
+      "offered": "Offre reçue",
+      "accepted": "Acceptée",
+      "declined": "Déclinée",
+      "rejected": "Non retenue",
+      "withdrawn": "Retirée"
+    }
+  },
+  "project": {
+    "status": {
+      "draft": "Brouillon",
+      "preparing": "En préparation",
+      "active": "En cours",
+      "completed": "Terminé",
+      "cancelled": "Annulé",
+      "archived": "Archivé"
+    },
+    "team": "Équipe",
+    "updates": "Actualités",
+    "credits": "Crédits",
+    "opportunities": "Annonces",
+    "owner": "Porteur",
+    "coorganiser": "Co-organisateur",
+    "member": "Membre",
+    "create": "Créer un projet",
+    "edit": "Modifier le projet",
+    "publish": "Publier",
+    "complete": "Marquer terminé",
+    "archive": "Archiver",
+    "cancel": "Annuler le projet"
+  },
+  "credits": {
+    "confirmed": "Crédit confirmé",
+    "proposed": "Proposé",
+    "disputed": "Contesté",
+    "declined": "Refusé",
+    "confirm": "Confirmer",
+    "decline": "Refuser",
+    "dispute": "Contester",
+    "disputeReason": "Motif de la contestation",
+    "note": "Un crédit atteste d'une collaboration confirmée par les deux parties. Il ne prouve ni contrat ni rémunération."
+  },
+  "messages": {
+    "title": "Messages",
+    "empty": "Aucune conversation pour l'instant.",
+    "placeholder": "Écris ton message…",
+    "send": "Envoyer",
+    "safety": {
+      "title": "Avant d'échanger",
+      "meet": "Rencontre dans un lieu public ou professionnel.",
+      "pay": "Ne paie jamais pour une audition, un casting ou un rôle.",
+      "report": "Signale toute demande déplacée."
+    },
+    "block": "Bloquer",
+    "report": "Signaler"
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "welcome": "Bonjour {name}",
+    "completion": "Profil complété à {percent} %",
+    "completeProfile": "Compléter mon profil",
+    "myProjects": "Mes projets",
+    "myApplications": "Mes candidatures",
+    "invitations": "Mes invitations",
+    "invitationsLeft": "{count, plural, =0 {Plus d'invitation disponible} one {# invitation à offrir} other {# invitations à offrir}}",
+    "copyCode": "Copier le code",
+    "verifyPhone": "Vérifie ton numéro pour publier un projet",
+    "noProjects": "Tu n'as pas encore de projet.",
+    "noApplications": "Tu n'as pas encore candidaté."
+  },
+  "notifications": {
+    "title": "Notifications",
+    "markAllRead": "Tout marquer comme lu",
+    "empty": "Rien de nouveau.",
+    "preferences": "Préférences"
+  },
+  "common": {
+    "loading": "Chargement…",
+    "error": "Quelque chose s'est mal passé. Réessaie.",
+    "retry": "Réessayer",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "back": "Retour",
+    "next": "Suivant",
+    "confirm": "Confirmer",
+    "delete": "Supprimer",
+    "optional": "facultatif",
+    "required": "obligatoire",
+    "seeAll": "Tout voir",
+    "menu": "Menu",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "yes": "Oui",
+    "no": "Non",
+    "today": "Aujourd'hui",
+    "new": "Nouveau"
+  },
+  "errors": {
+    "invitation-invalid": "Ce code d'invitation est invalide, déjà utilisé ou expiré.",
+    "minimum-age": "KREO est réservé aux personnes majeures en V1.",
+    "email-taken": "Un compte existe déjà avec cet e-mail.",
+    "token-invalid": "Ce lien est invalide ou a expiré.",
+    "validation-error": "Certains champs sont invalides.",
+    "rate-limited": "Trop de requêtes. Réessaie dans un instant.",
+    "phone-not-verified": "Confirme ton numéro de téléphone avant de publier.",
+    "volunteer-on-commercial": "Un rôle bénévole est refusé sur un projet commercial.",
+    "already-applied": "Tu as déjà candidaté à ce rôle.",
+    "role-closed": "Ce rôle ne reçoit plus de candidature.",
+    "role-full": "Toutes les places de ce rôle sont pourvues.",
+    "blocked": "Cette action n'est pas disponible.",
+    "invalid-transition": "Cette transition n'est pas autorisée.",
+    "quota-exceeded": "Tu as atteint la limite autorisée pour aujourd'hui.",
+    "account-suspended": "Ton compte est suspendu. Consulte la motivation reçue par e-mail.",
+    "unknown": "Quelque chose s'est mal passé. Réessaie."
+  },
+  "footer": {
+    "terms": "Conditions d'utilisation",
+    "privacy": "Confidentialité",
+    "charter": "Charte de la communauté",
+    "contact": "Contact",
+    "madeIn": "Produit indépendant développé à Bruxelles par Genius Harmony."
+  }
+}

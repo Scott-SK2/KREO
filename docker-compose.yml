@@ -1,0 +1,38 @@
+# Environnement local : PostgreSQL 16 (french + unaccent + pg_trgm) et Redis.
+# Usage : docker compose up -d
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: kreo
+      POSTGRES_PASSWORD: kreo
+      POSTGRES_DB: kreo
+    ports:
+      - "5432:5432"
+    volumes:
+      - kreo_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U kreo -d kreo"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  mailpit:
+    # Boîte e-mail locale pour les e-mails transactionnels (http://localhost:8025)
+    image: axllent/mailpit:latest
+    ports:
+      - "8025:8025"
+      - "1025:1025"
+
+volumes:
+  kreo_pgdata:
