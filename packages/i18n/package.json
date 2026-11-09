@@ -1,0 +1,21 @@
+{
+  "name": "@kreo/i18n",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Clés i18n partagées web + mobile. FR en V1, NL puis EN.",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./locales/*": "./src/locales/*"
+  },
+  "scripts": {
+    "lint": "node scripts/check-keys.mjs",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "node --test scripts/check-keys.test.mjs"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

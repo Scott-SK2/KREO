@@ -1,0 +1,24 @@
+{
+  "name": "kreo",
+  "private": true,
+  "version": "0.1.0",
+  "description": "KREO — Une idée, des talents, un projet. Monorepo web, mobile et API.",
+  "packageManager": "pnpm@10.28.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "typecheck": "turbo run typecheck",
+    "format": "prettier --write \"**/*.{ts,tsx,js,json,md,css,yml,yaml}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,json,md,css,yml,yaml}\"",
+    "api:openapi": "pnpm --filter @kreo/api-client generate"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.0",
+    "turbo": "^2.11.0"
+  }
+}

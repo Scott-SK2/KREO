@@ -1,0 +1,64 @@
+[
+  {"slug": "audiovisuel", "label": {"fr": "Audiovisuel", "nl": "Audiovisueel", "en": "Film & video"}, "children": [
+    {"slug": "court-metrage", "label": {"fr": "Court-métrage", "nl": "Kortfilm", "en": "Short film"}},
+    {"slug": "long-metrage", "label": {"fr": "Long-métrage", "nl": "Langspeelfilm", "en": "Feature film"}},
+    {"slug": "clip", "label": {"fr": "Clip", "nl": "Videoclip", "en": "Music video"}},
+    {"slug": "documentaire", "label": {"fr": "Documentaire", "nl": "Documentaire", "en": "Documentary"}},
+    {"slug": "serie-web", "label": {"fr": "Série web", "nl": "Webserie", "en": "Web series"}},
+    {"slug": "animation", "label": {"fr": "Animation", "nl": "Animatie", "en": "Animation"}},
+    {"slug": "montage", "label": {"fr": "Montage", "nl": "Montage", "en": "Editing"}},
+    {"slug": "image-cadre", "label": {"fr": "Image et cadre", "nl": "Camera en beeld", "en": "Cinematography"}}
+  ]},
+  {"slug": "spectacle-vivant", "label": {"fr": "Spectacle vivant", "nl": "Podiumkunsten", "en": "Performing arts"}, "children": [
+    {"slug": "theatre", "label": {"fr": "Théâtre", "nl": "Theater", "en": "Theatre"}},
+    {"slug": "danse", "label": {"fr": "Danse", "nl": "Dans", "en": "Dance"}},
+    {"slug": "cirque", "label": {"fr": "Cirque", "nl": "Circus", "en": "Circus"}},
+    {"slug": "performance", "label": {"fr": "Performance", "nl": "Performance", "en": "Performance art"}},
+    {"slug": "marionnettes", "label": {"fr": "Marionnettes et théâtre d'objets", "nl": "Poppen- en objectentheater", "en": "Puppetry"}},
+    {"slug": "mise-en-scene", "label": {"fr": "Mise en scène", "nl": "Regie", "en": "Stage direction"}},
+    {"slug": "regie-technique", "label": {"fr": "Régie et technique", "nl": "Techniek en regie", "en": "Stage tech"}}
+  ]},
+  {"slug": "musique", "label": {"fr": "Musique", "nl": "Muziek", "en": "Music"}, "children": [
+    {"slug": "composition", "label": {"fr": "Composition", "nl": "Compositie", "en": "Composition"}},
+    {"slug": "interpretation", "label": {"fr": "Interprétation", "nl": "Uitvoering", "en": "Performance"}},
+    {"slug": "chant", "label": {"fr": "Chant", "nl": "Zang", "en": "Vocals"}},
+    {"slug": "production-musicale", "label": {"fr": "Production musicale", "nl": "Muziekproductie", "en": "Music production"}},
+    {"slug": "sound-design", "label": {"fr": "Son et sound design", "nl": "Geluid en sound design", "en": "Sound design"}},
+    {"slug": "dj", "label": {"fr": "DJ", "nl": "DJ", "en": "DJ"}}
+  ]},
+  {"slug": "arts-visuels", "label": {"fr": "Arts visuels", "nl": "Beeldende kunst", "en": "Visual arts"}, "children": [
+    {"slug": "photographie", "label": {"fr": "Photographie", "nl": "Fotografie", "en": "Photography"}},
+    {"slug": "illustration", "label": {"fr": "Illustration", "nl": "Illustratie", "en": "Illustration"}},
+    {"slug": "peinture", "label": {"fr": "Peinture", "nl": "Schilderkunst", "en": "Painting"}},
+    {"slug": "sculpture", "label": {"fr": "Sculpture et installation", "nl": "Beeldhouwkunst en installatie", "en": "Sculpture & installation"}},
+    {"slug": "bande-dessinee", "label": {"fr": "Bande dessinée", "nl": "Strips", "en": "Comics"}}
+  ]},
+  {"slug": "design", "label": {"fr": "Design et image", "nl": "Design en beeld", "en": "Design"}, "children": [
+    {"slug": "graphisme", "label": {"fr": "Graphisme", "nl": "Grafisch ontwerp", "en": "Graphic design"}},
+    {"slug": "motion-design", "label": {"fr": "Motion design", "nl": "Motion design", "en": "Motion design"}},
+    {"slug": "scenographie", "label": {"fr": "Scénographie et décor", "nl": "Scenografie en decor", "en": "Set design"}},
+    {"slug": "costume", "label": {"fr": "Costume", "nl": "Kostuum", "en": "Costume"}},
+    {"slug": "maquillage-coiffure", "label": {"fr": "Maquillage et coiffure", "nl": "Make-up en kapsel", "en": "Make-up & hair"}},
+    {"slug": "lumiere", "label": {"fr": "Lumière", "nl": "Licht", "en": "Lighting"}}
+  ]},
+  {"slug": "ecriture", "label": {"fr": "Écriture", "nl": "Schrijven", "en": "Writing"}, "children": [
+    {"slug": "scenario", "label": {"fr": "Scénario", "nl": "Scenario", "en": "Screenwriting"}},
+    {"slug": "dramaturgie", "label": {"fr": "Dramaturgie", "nl": "Dramaturgie", "en": "Dramaturgy"}},
+    {"slug": "poesie-slam", "label": {"fr": "Poésie et slam", "nl": "Poëzie en slam", "en": "Poetry & slam"}},
+    {"slug": "traduction", "label": {"fr": "Traduction et sous-titrage", "nl": "Vertaling en ondertiteling", "en": "Translation & subtitling"}}
+  ]},
+  {"slug": "numerique", "label": {"fr": "Numérique et jeu", "nl": "Digitaal en games", "en": "Digital & games"}, "children": [
+    {"slug": "jeu-video", "label": {"fr": "Jeu vidéo", "nl": "Videogames", "en": "Video games"}},
+    {"slug": "art-numerique", "label": {"fr": "Art numérique et interactif", "nl": "Digitale en interactieve kunst", "en": "Digital & interactive art"}},
+    {"slug": "developpement-creatif", "label": {"fr": "Développement créatif", "nl": "Creatieve ontwikkeling", "en": "Creative coding"}}
+  ]},
+  {"slug": "mode", "label": {"fr": "Mode et stylisme", "nl": "Mode en styling", "en": "Fashion"}, "children": [
+    {"slug": "stylisme", "label": {"fr": "Stylisme", "nl": "Styling", "en": "Styling"}},
+    {"slug": "mannequinat", "label": {"fr": "Mannequinat", "nl": "Modellenwerk", "en": "Modelling"}}
+  ]},
+  {"slug": "production", "label": {"fr": "Production et coordination", "nl": "Productie en coördinatie", "en": "Production"}, "children": [
+    {"slug": "production-executive", "label": {"fr": "Production", "nl": "Productie", "en": "Producing"}},
+    {"slug": "assistanat", "label": {"fr": "Assistanat et régie plateau", "nl": "Assistentie en setregie", "en": "Assistant & set management"}},
+    {"slug": "communication", "label": {"fr": "Communication et diffusion", "nl": "Communicatie en verspreiding", "en": "Communication & outreach"}}
+  ]}
+]

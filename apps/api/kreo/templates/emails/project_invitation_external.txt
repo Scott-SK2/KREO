@@ -1,0 +1,8 @@
+Bonjour,
+
+On t'invite à rejoindre le projet « {{ project_title }} » sur KREO, la plateforme bruxelloise où les créateurs trouvent des projets et une équipe.
+
+Crée ton compte puis ouvre ce lien pour accepter l'invitation (valable 7 jours) :
+{{ link }}
+
+— L'équipe KREO

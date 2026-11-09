@@ -1,0 +1,8 @@
+Bonjour,
+
+Ton export de données KREO est prêt. Télécharge-le depuis ton tableau de bord :
+{{ site_url }}/compte/export
+
+Ce fichier contient toutes les données liées à ton compte, au format JSON.
+
+— L'équipe KREO

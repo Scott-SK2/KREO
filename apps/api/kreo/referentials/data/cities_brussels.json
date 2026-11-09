@@ -1,0 +1,21 @@
+[
+  {"postal_code": "1070", "label": {"fr": "Anderlecht", "nl": "Anderlecht", "en": "Anderlecht"}, "lat": 50.83619, "lng": 4.31454},
+  {"postal_code": "1160", "label": {"fr": "Auderghem", "nl": "Oudergem", "en": "Auderghem"}, "lat": 50.81638, "lng": 4.43291},
+  {"postal_code": "1082", "label": {"fr": "Berchem-Sainte-Agathe", "nl": "Sint-Agatha-Berchem", "en": "Berchem-Sainte-Agathe"}, "lat": 50.86487, "lng": 4.29253},
+  {"postal_code": "1000", "label": {"fr": "Bruxelles", "nl": "Brussel", "en": "Brussels"}, "lat": 50.84667, "lng": 4.35250},
+  {"postal_code": "1040", "label": {"fr": "Etterbeek", "nl": "Etterbeek", "en": "Etterbeek"}, "lat": 50.83629, "lng": 4.38950},
+  {"postal_code": "1140", "label": {"fr": "Evere", "nl": "Evere", "en": "Evere"}, "lat": 50.87104, "lng": 4.40242},
+  {"postal_code": "1190", "label": {"fr": "Forest", "nl": "Vorst", "en": "Forest"}, "lat": 50.80990, "lng": 4.31757},
+  {"postal_code": "1083", "label": {"fr": "Ganshoren", "nl": "Ganshoren", "en": "Ganshoren"}, "lat": 50.87213, "lng": 4.31724},
+  {"postal_code": "1050", "label": {"fr": "Ixelles", "nl": "Elsene", "en": "Ixelles"}, "lat": 50.82271, "lng": 4.38172},
+  {"postal_code": "1090", "label": {"fr": "Jette", "nl": "Jette", "en": "Jette"}, "lat": 50.87785, "lng": 4.32591},
+  {"postal_code": "1081", "label": {"fr": "Koekelberg", "nl": "Koekelberg", "en": "Koekelberg"}, "lat": 50.86236, "lng": 4.32569},
+  {"postal_code": "1080", "label": {"fr": "Molenbeek-Saint-Jean", "nl": "Sint-Jans-Molenbeek", "en": "Molenbeek-Saint-Jean"}, "lat": 50.85449, "lng": 4.32283},
+  {"postal_code": "1060", "label": {"fr": "Saint-Gilles", "nl": "Sint-Gillis", "en": "Saint-Gilles"}, "lat": 50.82646, "lng": 4.34571},
+  {"postal_code": "1210", "label": {"fr": "Saint-Josse-ten-Noode", "nl": "Sint-Joost-ten-Node", "en": "Saint-Josse-ten-Noode"}, "lat": 50.85205, "lng": 4.37110},
+  {"postal_code": "1030", "label": {"fr": "Schaerbeek", "nl": "Schaarbeek", "en": "Schaerbeek"}, "lat": 50.86740, "lng": 4.37769},
+  {"postal_code": "1180", "label": {"fr": "Uccle", "nl": "Ukkel", "en": "Uccle"}, "lat": 50.80208, "lng": 4.33686},
+  {"postal_code": "1170", "label": {"fr": "Watermael-Boitsfort", "nl": "Watermaal-Bosvoorde", "en": "Watermael-Boitsfort"}, "lat": 50.79870, "lng": 4.41549},
+  {"postal_code": "1200", "label": {"fr": "Woluwe-Saint-Lambert", "nl": "Sint-Lambrechts-Woluwe", "en": "Woluwe-Saint-Lambert"}, "lat": 50.84800, "lng": 4.42863},
+  {"postal_code": "1150", "label": {"fr": "Woluwe-Saint-Pierre", "nl": "Sint-Pieters-Woluwe", "en": "Woluwe-Saint-Pierre"}, "lat": 50.83228, "lng": 4.43627}
+]
