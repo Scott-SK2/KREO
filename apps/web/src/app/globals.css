@@ -1,0 +1,94 @@
+@import "tailwindcss";
+@import "@kreo/ui-tokens/css";
+
+/* Tokens Tailwind v4 dérivés des variables CSS du design system KREO. */
+@theme inline {
+  --color-taupe: var(--kreo-color-taupe);
+  --color-taupe-dark: var(--kreo-color-taupe-dark);
+  --color-brown: var(--kreo-color-brown);
+  --color-ivory: var(--kreo-color-ivory);
+  --color-paper: var(--kreo-color-paper);
+  --color-ink: var(--kreo-color-ink);
+  --color-gold: var(--kreo-color-gold);
+  --color-bordeaux: var(--kreo-color-bordeaux);
+  --color-success: var(--kreo-color-success);
+  --color-warning: var(--kreo-color-warning);
+  --color-danger: var(--kreo-color-danger);
+  --color-focus: var(--kreo-color-focus);
+
+  --font-display: var(--font-playfair), var(--kreo-font-display);
+  --font-body: var(--font-dm-sans), var(--kreo-font-body);
+
+  --radius-sm: var(--kreo-radius-sm);
+  --radius-md: var(--kreo-radius-md);
+  --radius-lg: var(--kreo-radius-lg);
+  --radius-xl: var(--kreo-radius-xl);
+  --radius-2xl: var(--kreo-radius-2xl);
+
+  --shadow-sm: var(--kreo-shadow-sm);
+  --shadow-md: var(--kreo-shadow-md);
+  --shadow-lg: var(--kreo-shadow-lg);
+
+  --spacing-touch: var(--kreo-touch-min);
+  --tracking-display: var(--kreo-letter-spacing-display);
+  --tracking-caps: var(--kreo-letter-spacing-caps);
+  --ease-kreo: var(--kreo-easing);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-paper font-body text-ink antialiased;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-display font-black uppercase tracking-display text-brown;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  /* Anneau de focus visible (or) sur tout élément interactif. */
+  :where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+    @apply outline-none ring-2 ring-focus ring-offset-2 ring-offset-paper;
+  }
+
+  ::selection {
+    background: color-mix(in srgb, var(--kreo-color-gold) 35%, transparent);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer utilities {
+  .kreo-container {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .kreo-prose {
+    @apply text-base leading-relaxed text-brown;
+  }
+
+  .kreo-prose p + p {
+    @apply mt-3;
+  }
+}
+
+/* <dialog> natif : fond assombri et centrage. */
+dialog::backdrop {
+  background: color-mix(in srgb, var(--kreo-color-ink) 55%, transparent);
+}
