@@ -236,6 +236,19 @@ SPECTACULAR_SETTINGS = {
 
 CORS_ALLOWED_ORIGINS = env("CORS_ALLOWED_ORIGINS")
 CORS_ALLOW_CREDENTIALS = True
+# X-Client distingue web (cookies) et mobile (jetons dans le corps) ; X-Request-ID pour le suivi.
+CORS_ALLOW_HEADERS = [
+    "accept",
+    "authorization",
+    "content-type",
+    "user-agent",
+    "x-csrftoken",
+    "x-requested-with",
+    "x-client",
+    "x-request-id",
+    "x-moderation-reason",
+]
+CORS_EXPOSE_HEADERS = ["x-request-id", "content-disposition"]
 CSRF_TRUSTED_ORIGINS = CORS_ALLOWED_ORIGINS
 
 # ---------------------------------------------------------------------------

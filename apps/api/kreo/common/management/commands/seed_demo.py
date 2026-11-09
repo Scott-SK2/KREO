@@ -163,6 +163,13 @@ class Command(BaseCommand):
             profile.onboarding_completed_at = now
             profile.save()
             profile.disciplines.set(Discipline.objects.filter(slug__in=disciplines))
+            if not BetaInvitation.objects.filter(inviter=user).exists():
+                BetaInvitation.objects.bulk_create(
+                    [
+                        BetaInvitation(inviter=user)
+                        for _ in range(settings.BETA_INVITATIONS_PER_MEMBER)
+                    ]
+                )
             users[email] = user
 
         for (

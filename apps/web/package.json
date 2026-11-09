@@ -24,6 +24,7 @@
     "zod": "^4.1.0"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.3.0",
     "@playwright/test": "^1.56.0",
     "@tailwindcss/postcss": "^4.1.0",
     "@testing-library/jest-dom": "^6.6.0",
