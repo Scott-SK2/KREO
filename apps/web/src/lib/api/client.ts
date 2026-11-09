@@ -11,7 +11,7 @@ async function refreshSession(): Promise<boolean> {
   refreshing ??= fetch(`${API_ORIGIN}/api/v1/auth/refresh`, {
     method: "POST",
     credentials: "include",
-    headers: { "Content-Type": "application/json", "X-Client": "web" },
+    headers: { "Content-Type": "application/json" },
     body: "{}",
   })
     .then((res) => res.ok)

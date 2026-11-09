@@ -21,6 +21,10 @@ def test_publication_makes_project_visible_and_search_finds_accents(api, open_op
     assert api.get("/api/v1/opportunities?discipline=spectacle-vivant").json()["results"]
     assert api.get("/api/v1/opportunities?discipline=musique").json()["results"] == []
     assert api.get("/api/v1/opportunities?q=xylophone").json()["results"] == []
+    # Le texte libre couvre aussi les rôles : titre du rôle et discipline du rôle
+    assert api.get("/api/v1/opportunities?q=comedien").json()["results"]
+    assert api.get("/api/v1/opportunities?q=Théatre").json()["results"]
+    assert api.get("/api/v1/opportunities?q=spectacle vivant").json()["results"]
 
 
 def test_volunteer_role_refused_on_commercial_project(api, project, owner):

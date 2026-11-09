@@ -57,9 +57,7 @@ export default async function HomePage() {
           <h1 className="max-w-3xl text-4xl leading-[1.05] sm:text-5xl lg:text-6xl">
             {t("home.title")}
           </h1>
-          <p className="mt-5 max-w-xl text-lg font-medium text-taupe-dark">
-            {t("brand.support")}
-          </p>
+          <p className="mt-5 max-w-xl text-lg font-medium text-taupe-dark">{t("brand.support")}</p>
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-brown">{t("home.lead")}</p>
           <div className="mt-8 flex flex-wrap gap-3">
             <ButtonLink href={routes.discover} size="lg">
@@ -79,10 +77,7 @@ export default async function HomePage() {
         </h2>
         <div className="grid gap-4 md:grid-cols-3">
           {pillars.map(({ key, icon: Icon }) => (
-            <article
-              key={key}
-              className="rounded-xl border border-taupe/15 bg-white p-6 shadow-sm"
-            >
+            <article key={key} className="rounded-xl border border-taupe/15 bg-white p-6 shadow-sm">
               <span className="inline-flex size-11 items-center justify-center rounded-full bg-ivory text-taupe-dark">
                 <Icon aria-hidden="true" className="size-5" strokeWidth={1.5} />
               </span>

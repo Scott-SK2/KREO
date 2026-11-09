@@ -1,14 +1,14 @@
 import { ApiError, fieldErrors, type Problem } from "@kreo/api-client";
 
 /** Fonction de traduction minimale (compatible `useTranslations("errors")`). */
-export type ErrorTranslator = {
+export interface ErrorTranslator {
   (key: string): string;
   has?: (key: string) => boolean;
-};
+}
 
 const FALLBACK_KEY = "unknown";
 
-/** Slug d'un problème ou "unknown" si l'erreur n'est pas une `ApiError`. */
+/** Slug d'un problème, "network" pour une erreur de transport, sinon "unknown". */
 export function errorSlug(error: unknown): string {
   if (error instanceof ApiError) return error.slug;
   if (error instanceof TypeError) return "network";
@@ -16,19 +16,13 @@ export function errorSlug(error: unknown): string {
 }
 
 /**
- * Traduit une erreur (ApiError, TypeError réseau, autre) en message lisible.
- * Cherche `errors.<slug>` puis retombe sur `errors.unknown`.
+ * Traduit une erreur (ApiError, TypeError réseau, autre) en message lisible :
+ * `errors.<slug>` si la clé existe, sinon `errors.unknown`.
  */
 export function errorMessage(error: unknown, t: ErrorTranslator): string {
   const slug = errorSlug(error);
-  if (t.has ? t.has(slug) : true) {
-    const translated = t(slug);
-    // next-intl renvoie la clé entre crochets quand elle manque.
-    if (translated && !translated.startsWith("errors.") && !translated.includes(slug + "]")) {
-      return translated;
-    }
-  }
-  return t(FALLBACK_KEY);
+  const known = t.has ? t.has(slug) : true;
+  return known ? t(slug) : t(FALLBACK_KEY);
 }
 
 /** Erreurs de champ d'un problème de validation ({ email: "…" }). */

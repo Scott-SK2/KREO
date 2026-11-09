@@ -13,8 +13,7 @@ const base =
 
 const variants: Record<ButtonVariant, string> = {
   primary: "bg-taupe text-white hover:bg-taupe-dark active:bg-brown",
-  secondary:
-    "border border-taupe text-taupe-dark bg-transparent hover:bg-ivory active:bg-ivory/80",
+  secondary: "border border-taupe text-taupe-dark bg-transparent hover:bg-ivory active:bg-ivory/80",
   ghost: "text-taupe-dark hover:bg-ivory active:bg-ivory/80",
   danger: "bg-bordeaux text-white hover:bg-bordeaux/90 active:bg-bordeaux/80",
 };

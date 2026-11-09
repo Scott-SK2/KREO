@@ -41,7 +41,14 @@ function read(params: ParamsLike, key: string): string | null {
 
 function splitList(value: string | null): string[] {
   if (!value) return [];
-  return Array.from(new Set(value.split(",").map((s) => s.trim()).filter(Boolean)));
+  return Array.from(
+    new Set(
+      value
+        .split(",")
+        .map((s) => s.trim())
+        .filter(Boolean),
+    ),
+  );
 }
 
 export function parseTab(params: ParamsLike): DiscoverTab {

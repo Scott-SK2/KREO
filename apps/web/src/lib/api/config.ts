@@ -1,7 +1,8 @@
 /** Base publique de l'API, ex. http://localhost:8000/api/v1 (variable NEXT_PUBLIC_API_URL). */
-export const API_URL = (
-  process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000/api/v1"
-).replace(/\/$/, "");
+export const API_URL = (process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000/api/v1").replace(
+  /\/$/,
+  "",
+);
 
 /**
  * Les chemins générés dans `@kreo/api-client` incluent déjà `/api/v1` :

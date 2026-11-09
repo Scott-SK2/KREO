@@ -2,9 +2,7 @@ import { cn } from "@/lib/cn";
 
 /** Bloc de chargement animé ; purement décoratif (aria-hidden). */
 export function Skeleton({ className }: { className?: string }) {
-  return (
-    <div aria-hidden="true" className={cn("animate-pulse rounded-md bg-ivory", className)} />
-  );
+  return <div aria-hidden="true" className={cn("animate-pulse rounded-md bg-ivory", className)} />;
 }
 
 /** Carte fantôme pour les listes d'annonces et de projets. */

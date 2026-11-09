@@ -61,10 +61,18 @@ def search_opportunities(params, user):
     sort = params.get("sort", "recent")
     if q:
         query = SearchQuery(q, config="kreo_french", search_type="websearch")
+        # Texte libre : titre + description de l'annonce (FTS), titre approchant (trigrammes),
+        # et titre ou discipline des rôles ouverts (« danse » trouve « Danseur·se » et la discipline Danse).
         qs = qs.annotate(
             rank=SearchRank("search_vector", query),
             similarity=TrigramSimilarity("title", q),
-        ).filter(Q(search_vector=query) | Q(similarity__gt=0.3))
+        ).filter(
+            Q(search_vector=query)
+            | Q(similarity__gt=0.3)
+            | Q(roles__status=RoleStatus.OPEN, roles__title__unaccent__icontains=q)
+            | Q(roles__status=RoleStatus.OPEN, roles__discipline__label_i18n__icontains=q)
+            | Q(roles__status=RoleStatus.OPEN, roles__discipline__parent__label_i18n__icontains=q)
+        )
         if sort == "relevance":
             return qs.distinct().order_by("-rank", "-similarity", "-published_at", "-id")
     return qs.distinct().order_by("-published_at", "-id")

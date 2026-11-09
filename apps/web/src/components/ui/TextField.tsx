@@ -44,7 +44,12 @@ export function TextField({
           id={id}
           aria-invalid={error ? true : undefined}
           aria-describedby={describedBy(id, hint, error)}
-          className={cn(controlClasses, controlBorder(error), trailing ? "pr-12" : undefined, className)}
+          className={cn(
+            controlClasses,
+            controlBorder(error),
+            trailing ? "pr-12" : undefined,
+            className,
+          )}
           {...rest}
         />
         {trailing ? (

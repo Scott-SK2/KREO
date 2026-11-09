@@ -30,13 +30,15 @@ export function Logo({ className, height = 28, inverted = false }: LogoProps) {
         fontWeight="900"
         fontSize="36"
         letterSpacing="1.5"
+        textLength="100"
+        lengthAdjust="spacingAndGlyphs"
         fill={color}
       >
         KRE
       </text>
       <g fill="none" strokeWidth="2.6">
-        <circle cx="117" cy="21" r="13" stroke={color} />
-        <circle cx="129" cy="21" r="13" stroke="var(--kreo-color-gold)" />
+        <circle cx="114" cy="21" r="12.5" stroke={color} />
+        <circle cx="126" cy="21" r="12.5" stroke="var(--kreo-color-gold)" />
       </g>
     </svg>
   );

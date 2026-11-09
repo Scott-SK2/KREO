@@ -30,8 +30,11 @@ export function requirementValue(value: unknown): string {
   if (Array.isArray(value)) return value.map((v) => requirementValue(v)).join(", ");
   if (value && typeof value === "object") {
     const obj = value as Record<string, unknown>;
-    if ("min" in obj || "max" in obj) return [obj.min, obj.max].filter((v) => v != null).join(" – ");
-    return Object.values(obj).map((v) => requirementValue(v)).join(", ");
+    if ("min" in obj || "max" in obj)
+      return [obj.min, obj.max].filter((v) => v != null).join(" – ");
+    return Object.values(obj)
+      .map((v) => requirementValue(v))
+      .join(", ");
   }
   if (typeof value === "boolean") return value ? "oui" : "non";
   return value == null ? "" : String(value);

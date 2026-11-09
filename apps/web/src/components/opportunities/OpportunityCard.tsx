@@ -81,9 +81,7 @@ export function OpportunityCard({ opportunity }: { opportunity: OpportunityListI
             </li>
           );
         })}
-        {roles.length > 3 ? (
-          <li className="text-xs text-taupe-dark">+{roles.length - 3}</li>
-        ) : null}
+        {roles.length > 3 ? <li className="text-xs text-taupe-dark">+{roles.length - 3}</li> : null}
       </ul>
 
       <div className="mt-auto flex flex-wrap items-center gap-2">
